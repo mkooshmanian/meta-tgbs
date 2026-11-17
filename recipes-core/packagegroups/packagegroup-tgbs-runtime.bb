@@ -8,6 +8,8 @@ inherit packagegroup
 RDEPENDS:${PN} = " \
     tgbs-runtime-init \
     tgbsctl \
+    libtgbs \
     libtgbscomm \
     tgbs-top \
+    tgbs-launcher \
 "
